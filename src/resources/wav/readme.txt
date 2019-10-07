@@ -1,0 +1,1 @@
+Wav files are not included. Copy you own wav files to this folder and link the config.properties to your files.

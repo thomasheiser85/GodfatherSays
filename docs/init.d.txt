@@ -1,0 +1,31 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          GodfatherSays
+# Required-Start:    
+# Required-Stop:     
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+### END INIT INFO
+ 
+#Switch case fuer den ersten Parameter
+case "$1" in
+    start)
+ #Aktion wenn start uebergeben wird
+        echo "Starte GodfatherSays"
+		sudo java -jar /home/pi/GodfatherSays/GodfatherSays.jar /home/pi/GodfatherSays/config.properties 
+        ;;
+
+    stop)
+ #Aktion wenn start uebergeben wird
+        echo "Starte GodfatherSays"
+		sudo killall java
+        ;;
+
+
+ *)
+ #Standard Aktion wenn start nicht passen
+ echo "(start|stop)"
+ ;;
+esac
+ 
+exit 0
