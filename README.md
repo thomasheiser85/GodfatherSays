@@ -3,6 +3,9 @@ Musicbox &amp; Kids Game for Raspberry PI
 
 Made for my godchild Louisa :)
 
+
+See demo on YouTube:
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=PWkdlJ0F5B8" target="_blank"><img src="http://img.youtube.com/vi/PWkdlJ0F5B8/0.jpg" alt="GodfatherSays" width="240" height="180" border="10" /></a>
 
 ![Image03](docs/images/img03.jpg)
